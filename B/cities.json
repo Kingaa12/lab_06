@@ -1,0 +1,1726 @@
+[
+  {
+    "_id": 1,
+    "name": "City1",
+    "years": [
+      {
+        "year": 2000,
+        "population": 460351,
+        "income_distribution": {
+          "percent_poor": 30,
+          "percent_middle": 58,
+          "percent_wealthy": 16
+        },
+        "weather": {
+          "total_precipitation": 831,
+          "temperature": {
+            "annual_high": 36,
+            "annual_low": -4
+          }
+        },
+        "mayor": 9
+      },
+      {
+        "year": 2001,
+        "population": 248546,
+        "income_distribution": {
+          "percent_poor": 18,
+          "percent_middle": 57,
+          "percent_wealthy": 27
+        },
+        "weather": {
+          "total_precipitation": 1611,
+          "temperature": {
+            "annual_high": 33,
+            "annual_low": 9
+          }
+        },
+        "mayor": 12
+      },
+      {
+        "year": 2002,
+        "population": 424218,
+        "income_distribution": {
+          "percent_poor": 30,
+          "percent_middle": 55,
+          "percent_wealthy": 23
+        },
+        "weather": {
+          "total_precipitation": 1824,
+          "temperature": {
+            "annual_high": 25,
+            "annual_low": 6
+          }
+        },
+        "mayor": 4
+      },
+      {
+        "year": 2003,
+        "population": 206420,
+        "income_distribution": {
+          "percent_poor": 23,
+          "percent_middle": 43,
+          "percent_wealthy": 27
+        },
+        "weather": {
+          "total_precipitation": 293,
+          "temperature": {
+            "annual_high": 35,
+            "annual_low": -2
+          }
+        },
+        "mayor": 18
+      },
+      {
+        "year": 2004,
+        "population": 375227,
+        "income_distribution": {
+          "percent_poor": 18,
+          "percent_middle": 52,
+          "percent_wealthy": 27
+        },
+        "weather": {
+          "total_precipitation": 217,
+          "temperature": {
+            "annual_high": 29,
+            "annual_low": 9
+          }
+        },
+        "mayor": 2
+      },
+      {
+        "year": 2005,
+        "population": 224377,
+        "income_distribution": {
+          "percent_poor": 23,
+          "percent_middle": 50,
+          "percent_wealthy": 27
+        },
+        "weather": {
+          "total_precipitation": 963,
+          "temperature": {
+            "annual_high": 30,
+            "annual_low": 10
+          }
+        },
+        "mayor": 3
+      },
+      {
+        "year": 2006,
+        "population": 472286,
+        "income_distribution": {
+          "percent_poor": 24,
+          "percent_middle": 56,
+          "percent_wealthy": 11
+        },
+        "weather": {
+          "total_precipitation": 1457,
+          "temperature": {
+            "annual_high": 33,
+            "annual_low": -9
+          }
+        },
+        "mayor": 8
+      },
+      {
+        "year": 2007,
+        "population": 334135,
+        "income_distribution": {
+          "percent_poor": 11,
+          "percent_middle": 55,
+          "percent_wealthy": 19
+        },
+        "weather": {
+          "total_precipitation": 719,
+          "temperature": {
+            "annual_high": 24,
+            "annual_low": 4
+          }
+        },
+        "mayor": 2
+      },
+      {
+        "year": 2008,
+        "population": 138914,
+        "income_distribution": {
+          "percent_poor": 10,
+          "percent_middle": 53,
+          "percent_wealthy": 27
+        },
+        "weather": {
+          "total_precipitation": 1213,
+          "temperature": {
+            "annual_high": 37,
+            "annual_low": 5
+          }
+        },
+        "mayor": 5
+      },
+      {
+        "year": 2009,
+        "population": 185188,
+        "income_distribution": {
+          "percent_poor": 28,
+          "percent_middle": 51,
+          "percent_wealthy": 14
+        },
+        "weather": {
+          "total_precipitation": 1732,
+          "temperature": {
+            "annual_high": 35,
+            "annual_low": 9
+          }
+        },
+        "mayor": 9
+      },
+      {
+        "year": 2010,
+        "population": 453627,
+        "income_distribution": {
+          "percent_poor": 26,
+          "percent_middle": 52,
+          "percent_wealthy": 26
+        },
+        "weather": {
+          "total_precipitation": 686,
+          "temperature": {
+            "annual_high": 38,
+            "annual_low": 8
+          }
+        },
+        "mayor": 6
+      },
+      {
+        "year": 2011,
+        "population": 184520,
+        "income_distribution": {
+          "percent_poor": 16,
+          "percent_middle": 41,
+          "percent_wealthy": 23
+        },
+        "weather": {
+          "total_precipitation": 1911,
+          "temperature": {
+            "annual_high": 20,
+            "annual_low": 5
+          }
+        },
+        "mayor": 4
+      },
+      {
+        "year": 2012,
+        "population": 183116,
+        "income_distribution": {
+          "percent_poor": 26,
+          "percent_middle": 55,
+          "percent_wealthy": 27
+        },
+        "weather": {
+          "total_precipitation": 1638,
+          "temperature": {
+            "annual_high": 24,
+            "annual_low": -8
+          }
+        },
+        "mayor": 13
+      },
+      {
+        "year": 2013,
+        "population": 61785,
+        "income_distribution": {
+          "percent_poor": 18,
+          "percent_middle": 40,
+          "percent_wealthy": 17
+        },
+        "weather": {
+          "total_precipitation": 1052,
+          "temperature": {
+            "annual_high": 23,
+            "annual_low": 0
+          }
+        },
+        "mayor": 14
+      },
+      {
+        "year": 2014,
+        "population": 412842,
+        "income_distribution": {
+          "percent_poor": 14,
+          "percent_middle": 55,
+          "percent_wealthy": 29
+        },
+        "weather": {
+          "total_precipitation": 1552,
+          "temperature": {
+            "annual_high": 37,
+            "annual_low": 7
+          }
+        },
+        "mayor": 16
+      },
+      {
+        "year": 2015,
+        "population": 187329,
+        "income_distribution": {
+          "percent_poor": 24,
+          "percent_middle": 50,
+          "percent_wealthy": 19
+        },
+        "weather": {
+          "total_precipitation": 1691,
+          "temperature": {
+            "annual_high": 30,
+            "annual_low": -7
+          }
+        },
+        "mayor": 12
+      },
+      {
+        "year": 2016,
+        "population": 206347,
+        "income_distribution": {
+          "percent_poor": 18,
+          "percent_middle": 51,
+          "percent_wealthy": 26
+        },
+        "weather": {
+          "total_precipitation": 827,
+          "temperature": {
+            "annual_high": 31,
+            "annual_low": -2
+          }
+        },
+        "mayor": 16
+      },
+      {
+        "year": 2017,
+        "population": 109255,
+        "income_distribution": {
+          "percent_poor": 19,
+          "percent_middle": 53,
+          "percent_wealthy": 19
+        },
+        "weather": {
+          "total_precipitation": 432,
+          "temperature": {
+            "annual_high": 25,
+            "annual_low": 5
+          }
+        },
+        "mayor": 18
+      },
+      {
+        "year": 2018,
+        "population": 411836,
+        "income_distribution": {
+          "percent_poor": 19,
+          "percent_middle": 48,
+          "percent_wealthy": 18
+        },
+        "weather": {
+          "total_precipitation": 553,
+          "temperature": {
+            "annual_high": 36,
+            "annual_low": 4
+          }
+        },
+        "mayor": 14
+      },
+      {
+        "year": 2019,
+        "population": 110226,
+        "income_distribution": {
+          "percent_poor": 20,
+          "percent_middle": 44,
+          "percent_wealthy": 11
+        },
+        "weather": {
+          "total_precipitation": 980,
+          "temperature": {
+            "annual_high": 34,
+            "annual_low": 0
+          }
+        },
+        "mayor": 5
+      },
+      {
+        "year": 2020,
+        "population": 391137,
+        "income_distribution": {
+          "percent_poor": 27,
+          "percent_middle": 54,
+          "percent_wealthy": 15
+        },
+        "weather": {
+          "total_precipitation": 1360,
+          "temperature": {
+            "annual_high": 28,
+            "annual_low": -1
+          }
+        },
+        "mayor": 19
+      },
+      {
+        "year": 2021,
+        "population": 145308,
+        "income_distribution": {
+          "percent_poor": 26,
+          "percent_middle": 50,
+          "percent_wealthy": 28
+        },
+        "weather": {
+          "total_precipitation": 1885,
+          "temperature": {
+            "annual_high": 33,
+            "annual_low": -9
+          }
+        },
+        "mayor": 11
+      },
+      {
+        "year": 2022,
+        "population": 433432,
+        "income_distribution": {
+          "percent_poor": 28,
+          "percent_middle": 42,
+          "percent_wealthy": 10
+        },
+        "weather": {
+          "total_precipitation": 1239,
+          "temperature": {
+            "annual_high": 35,
+            "annual_low": 8
+          }
+        },
+        "mayor": 10
+      },
+      {
+        "year": 2023,
+        "population": 215420,
+        "income_distribution": {
+          "percent_poor": 19,
+          "percent_middle": 45,
+          "percent_wealthy": 11
+        },
+        "weather": {
+          "total_precipitation": 435,
+          "temperature": {
+            "annual_high": 28,
+            "annual_low": -4
+          }
+        },
+        "mayor": 6
+      },
+      {
+        "year": 2024,
+        "population": 236622,
+        "income_distribution": {
+          "percent_poor": 29,
+          "percent_middle": 48,
+          "percent_wealthy": 28
+        },
+        "weather": {
+          "total_precipitation": 804,
+          "temperature": {
+            "annual_high": 22,
+            "annual_low": -4
+          }
+        },
+        "mayor": 14
+      }
+    ]
+  },
+  {
+    "_id": 2,
+    "name": "City2",
+    "years": [
+      {
+        "year": 2000,
+        "population": 412742,
+        "income_distribution": {
+          "percent_poor": 13,
+          "percent_middle": 47,
+          "percent_wealthy": 17
+        },
+        "weather": {
+          "total_precipitation": 1012,
+          "temperature": {
+            "annual_high": 27,
+            "annual_low": -8
+          }
+        },
+        "mayor": 1
+      },
+      {
+        "year": 2001,
+        "population": 311602,
+        "income_distribution": {
+          "percent_poor": 19,
+          "percent_middle": 46,
+          "percent_wealthy": 24
+        },
+        "weather": {
+          "total_precipitation": 1547,
+          "temperature": {
+            "annual_high": 33,
+            "annual_low": 4
+          }
+        },
+        "mayor": 18
+      },
+      {
+        "year": 2002,
+        "population": 445744,
+        "income_distribution": {
+          "percent_poor": 20,
+          "percent_middle": 50,
+          "percent_wealthy": 10
+        },
+        "weather": {
+          "total_precipitation": 813,
+          "temperature": {
+            "annual_high": 32,
+            "annual_low": -6
+          }
+        },
+        "mayor": 10
+      },
+      {
+        "year": 2003,
+        "population": 220140,
+        "income_distribution": {
+          "percent_poor": 10,
+          "percent_middle": 57,
+          "percent_wealthy": 19
+        },
+        "weather": {
+          "total_precipitation": 727,
+          "temperature": {
+            "annual_high": 25,
+            "annual_low": 1
+          }
+        },
+        "mayor": 11
+      },
+      {
+        "year": 2004,
+        "population": 381543,
+        "income_distribution": {
+          "percent_poor": 13,
+          "percent_middle": 49,
+          "percent_wealthy": 13
+        },
+        "weather": {
+          "total_precipitation": 739,
+          "temperature": {
+            "annual_high": 25,
+            "annual_low": -1
+          }
+        },
+        "mayor": 12
+      },
+      {
+        "year": 2005,
+        "population": 370513,
+        "income_distribution": {
+          "percent_poor": 16,
+          "percent_middle": 47,
+          "percent_wealthy": 11
+        },
+        "weather": {
+          "total_precipitation": 276,
+          "temperature": {
+            "annual_high": 33,
+            "annual_low": -2
+          }
+        },
+        "mayor": 18
+      },
+      {
+        "year": 2006,
+        "population": 307039,
+        "income_distribution": {
+          "percent_poor": 19,
+          "percent_middle": 45,
+          "percent_wealthy": 30
+        },
+        "weather": {
+          "total_precipitation": 1158,
+          "temperature": {
+            "annual_high": 29,
+            "annual_low": -3
+          }
+        },
+        "mayor": 19
+      },
+      {
+        "year": 2007,
+        "population": 191781,
+        "income_distribution": {
+          "percent_poor": 29,
+          "percent_middle": 58,
+          "percent_wealthy": 16
+        },
+        "weather": {
+          "total_precipitation": 1809,
+          "temperature": {
+            "annual_high": 33,
+            "annual_low": -2
+          }
+        },
+        "mayor": 11
+      },
+      {
+        "year": 2008,
+        "population": 219912,
+        "income_distribution": {
+          "percent_poor": 18,
+          "percent_middle": 53,
+          "percent_wealthy": 29
+        },
+        "weather": {
+          "total_precipitation": 1229,
+          "temperature": {
+            "annual_high": 21,
+            "annual_low": -10
+          }
+        },
+        "mayor": 6
+      },
+      {
+        "year": 2009,
+        "population": 226596,
+        "income_distribution": {
+          "percent_poor": 27,
+          "percent_middle": 48,
+          "percent_wealthy": 17
+        },
+        "weather": {
+          "total_precipitation": 233,
+          "temperature": {
+            "annual_high": 24,
+            "annual_low": -2
+          }
+        },
+        "mayor": 15
+      },
+      {
+        "year": 2010,
+        "population": 298764,
+        "income_distribution": {
+          "percent_poor": 20,
+          "percent_middle": 47,
+          "percent_wealthy": 18
+        },
+        "weather": {
+          "total_precipitation": 1523,
+          "temperature": {
+            "annual_high": 38,
+            "annual_low": -9
+          }
+        },
+        "mayor": 17
+      },
+      {
+        "year": 2011,
+        "population": 483927,
+        "income_distribution": {
+          "percent_poor": 10,
+          "percent_middle": 48,
+          "percent_wealthy": 20
+        },
+        "weather": {
+          "total_precipitation": 459,
+          "temperature": {
+            "annual_high": 31,
+            "annual_low": -4
+          }
+        },
+        "mayor": 18
+      },
+      {
+        "year": 2012,
+        "population": 416709,
+        "income_distribution": {
+          "percent_poor": 17,
+          "percent_middle": 46,
+          "percent_wealthy": 28
+        },
+        "weather": {
+          "total_precipitation": 1515,
+          "temperature": {
+            "annual_high": 32,
+            "annual_low": -6
+          }
+        },
+        "mayor": 1
+      },
+      {
+        "year": 2013,
+        "population": 109630,
+        "income_distribution": {
+          "percent_poor": 12,
+          "percent_middle": 43,
+          "percent_wealthy": 18
+        },
+        "weather": {
+          "total_precipitation": 743,
+          "temperature": {
+            "annual_high": 40,
+            "annual_low": -1
+          }
+        },
+        "mayor": 8
+      },
+      {
+        "year": 2014,
+        "population": 484115,
+        "income_distribution": {
+          "percent_poor": 19,
+          "percent_middle": 43,
+          "percent_wealthy": 18
+        },
+        "weather": {
+          "total_precipitation": 870,
+          "temperature": {
+            "annual_high": 34,
+            "annual_low": 7
+          }
+        },
+        "mayor": 6
+      },
+      {
+        "year": 2015,
+        "population": 370589,
+        "income_distribution": {
+          "percent_poor": 19,
+          "percent_middle": 44,
+          "percent_wealthy": 15
+        },
+        "weather": {
+          "total_precipitation": 929,
+          "temperature": {
+            "annual_high": 37,
+            "annual_low": 2
+          }
+        },
+        "mayor": 7
+      },
+      {
+        "year": 2016,
+        "population": 407701,
+        "income_distribution": {
+          "percent_poor": 19,
+          "percent_middle": 59,
+          "percent_wealthy": 29
+        },
+        "weather": {
+          "total_precipitation": 1258,
+          "temperature": {
+            "annual_high": 24,
+            "annual_low": -6
+          }
+        },
+        "mayor": 20
+      },
+      {
+        "year": 2017,
+        "population": 303793,
+        "income_distribution": {
+          "percent_poor": 18,
+          "percent_middle": 45,
+          "percent_wealthy": 15
+        },
+        "weather": {
+          "total_precipitation": 1445,
+          "temperature": {
+            "annual_high": 26,
+            "annual_low": -9
+          }
+        },
+        "mayor": 1
+      },
+      {
+        "year": 2018,
+        "population": 228564,
+        "income_distribution": {
+          "percent_poor": 29,
+          "percent_middle": 48,
+          "percent_wealthy": 23
+        },
+        "weather": {
+          "total_precipitation": 395,
+          "temperature": {
+            "annual_high": 40,
+            "annual_low": 10
+          }
+        },
+        "mayor": 20
+      },
+      {
+        "year": 2019,
+        "population": 195440,
+        "income_distribution": {
+          "percent_poor": 10,
+          "percent_middle": 42,
+          "percent_wealthy": 18
+        },
+        "weather": {
+          "total_precipitation": 408,
+          "temperature": {
+            "annual_high": 26,
+            "annual_low": -10
+          }
+        },
+        "mayor": 2
+      },
+      {
+        "year": 2020,
+        "population": 245528,
+        "income_distribution": {
+          "percent_poor": 30,
+          "percent_middle": 55,
+          "percent_wealthy": 15
+        },
+        "weather": {
+          "total_precipitation": 1299,
+          "temperature": {
+            "annual_high": 37,
+            "annual_low": -2
+          }
+        },
+        "mayor": 10
+      },
+      {
+        "year": 2021,
+        "population": 153848,
+        "income_distribution": {
+          "percent_poor": 26,
+          "percent_middle": 59,
+          "percent_wealthy": 10
+        },
+        "weather": {
+          "total_precipitation": 408,
+          "temperature": {
+            "annual_high": 23,
+            "annual_low": 10
+          }
+        },
+        "mayor": 2
+      },
+      {
+        "year": 2022,
+        "population": 320313,
+        "income_distribution": {
+          "percent_poor": 14,
+          "percent_middle": 41,
+          "percent_wealthy": 14
+        },
+        "weather": {
+          "total_precipitation": 319,
+          "temperature": {
+            "annual_high": 28,
+            "annual_low": 4
+          }
+        },
+        "mayor": 13
+      },
+      {
+        "year": 2023,
+        "population": 63754,
+        "income_distribution": {
+          "percent_poor": 11,
+          "percent_middle": 55,
+          "percent_wealthy": 16
+        },
+        "weather": {
+          "total_precipitation": 343,
+          "temperature": {
+            "annual_high": 33,
+            "annual_low": 10
+          }
+        },
+        "mayor": 20
+      },
+      {
+        "year": 2024,
+        "population": 213585,
+        "income_distribution": {
+          "percent_poor": 16,
+          "percent_middle": 47,
+          "percent_wealthy": 19
+        },
+        "weather": {
+          "total_precipitation": 1144,
+          "temperature": {
+            "annual_high": 26,
+            "annual_low": 10
+          }
+        },
+        "mayor": 19
+      }
+    ]
+  },
+  {
+    "_id": 3,
+    "name": "City3",
+    "years": [
+      {
+        "year": 2000,
+        "population": 206949,
+        "income_distribution": {
+          "percent_poor": 16,
+          "percent_middle": 42,
+          "percent_wealthy": 23
+        },
+        "weather": {
+          "total_precipitation": 987,
+          "temperature": {
+            "annual_high": 29,
+            "annual_low": -5
+          }
+        },
+        "mayor": 12
+      },
+      {
+        "year": 2001,
+        "population": 460845,
+        "income_distribution": {
+          "percent_poor": 12,
+          "percent_middle": 47,
+          "percent_wealthy": 29
+        },
+        "weather": {
+          "total_precipitation": 1114,
+          "temperature": {
+            "annual_high": 35,
+            "annual_low": -4
+          }
+        },
+        "mayor": 11
+      },
+      {
+        "year": 2002,
+        "population": 100280,
+        "income_distribution": {
+          "percent_poor": 23,
+          "percent_middle": 47,
+          "percent_wealthy": 25
+        },
+        "weather": {
+          "total_precipitation": 971,
+          "temperature": {
+            "annual_high": 24,
+            "annual_low": 5
+          }
+        },
+        "mayor": 13
+      },
+      {
+        "year": 2003,
+        "population": 226701,
+        "income_distribution": {
+          "percent_poor": 24,
+          "percent_middle": 45,
+          "percent_wealthy": 30
+        },
+        "weather": {
+          "total_precipitation": 350,
+          "temperature": {
+            "annual_high": 28,
+            "annual_low": -3
+          }
+        },
+        "mayor": 3
+      },
+      {
+        "year": 2004,
+        "population": 305117,
+        "income_distribution": {
+          "percent_poor": 14,
+          "percent_middle": 47,
+          "percent_wealthy": 21
+        },
+        "weather": {
+          "total_precipitation": 830,
+          "temperature": {
+            "annual_high": 32,
+            "annual_low": -5
+          }
+        },
+        "mayor": 12
+      },
+      {
+        "year": 2005,
+        "population": 131168,
+        "income_distribution": {
+          "percent_poor": 25,
+          "percent_middle": 51,
+          "percent_wealthy": 27
+        },
+        "weather": {
+          "total_precipitation": 1906,
+          "temperature": {
+            "annual_high": 22,
+            "annual_low": 1
+          }
+        },
+        "mayor": 17
+      },
+      {
+        "year": 2006,
+        "population": 156693,
+        "income_distribution": {
+          "percent_poor": 16,
+          "percent_middle": 56,
+          "percent_wealthy": 15
+        },
+        "weather": {
+          "total_precipitation": 813,
+          "temperature": {
+            "annual_high": 31,
+            "annual_low": 5
+          }
+        },
+        "mayor": 9
+      },
+      {
+        "year": 2007,
+        "population": 194070,
+        "income_distribution": {
+          "percent_poor": 24,
+          "percent_middle": 48,
+          "percent_wealthy": 18
+        },
+        "weather": {
+          "total_precipitation": 1400,
+          "temperature": {
+            "annual_high": 26,
+            "annual_low": 6
+          }
+        },
+        "mayor": 6
+      },
+      {
+        "year": 2008,
+        "population": 110850,
+        "income_distribution": {
+          "percent_poor": 20,
+          "percent_middle": 55,
+          "percent_wealthy": 17
+        },
+        "weather": {
+          "total_precipitation": 880,
+          "temperature": {
+            "annual_high": 33,
+            "annual_low": -4
+          }
+        },
+        "mayor": 17
+      },
+      {
+        "year": 2009,
+        "population": 459012,
+        "income_distribution": {
+          "percent_poor": 13,
+          "percent_middle": 53,
+          "percent_wealthy": 16
+        },
+        "weather": {
+          "total_precipitation": 1962,
+          "temperature": {
+            "annual_high": 25,
+            "annual_low": -9
+          }
+        },
+        "mayor": 13
+      },
+      {
+        "year": 2010,
+        "population": 445453,
+        "income_distribution": {
+          "percent_poor": 30,
+          "percent_middle": 50,
+          "percent_wealthy": 19
+        },
+        "weather": {
+          "total_precipitation": 1274,
+          "temperature": {
+            "annual_high": 34,
+            "annual_low": -4
+          }
+        },
+        "mayor": 10
+      },
+      {
+        "year": 2011,
+        "population": 204781,
+        "income_distribution": {
+          "percent_poor": 29,
+          "percent_middle": 54,
+          "percent_wealthy": 19
+        },
+        "weather": {
+          "total_precipitation": 1926,
+          "temperature": {
+            "annual_high": 35,
+            "annual_low": 5
+          }
+        },
+        "mayor": 6
+      },
+      {
+        "year": 2012,
+        "population": 395941,
+        "income_distribution": {
+          "percent_poor": 16,
+          "percent_middle": 43,
+          "percent_wealthy": 26
+        },
+        "weather": {
+          "total_precipitation": 1480,
+          "temperature": {
+            "annual_high": 24,
+            "annual_low": -9
+          }
+        },
+        "mayor": 5
+      },
+      {
+        "year": 2013,
+        "population": 91324,
+        "income_distribution": {
+          "percent_poor": 29,
+          "percent_middle": 45,
+          "percent_wealthy": 26
+        },
+        "weather": {
+          "total_precipitation": 1454,
+          "temperature": {
+            "annual_high": 37,
+            "annual_low": 6
+          }
+        },
+        "mayor": 4
+      },
+      {
+        "year": 2014,
+        "population": 90282,
+        "income_distribution": {
+          "percent_poor": 27,
+          "percent_middle": 58,
+          "percent_wealthy": 23
+        },
+        "weather": {
+          "total_precipitation": 620,
+          "temperature": {
+            "annual_high": 25,
+            "annual_low": 8
+          }
+        },
+        "mayor": 13
+      },
+      {
+        "year": 2015,
+        "population": 154085,
+        "income_distribution": {
+          "percent_poor": 30,
+          "percent_middle": 53,
+          "percent_wealthy": 14
+        },
+        "weather": {
+          "total_precipitation": 788,
+          "temperature": {
+            "annual_high": 34,
+            "annual_low": 3
+          }
+        },
+        "mayor": 7
+      },
+      {
+        "year": 2016,
+        "population": 52775,
+        "income_distribution": {
+          "percent_poor": 19,
+          "percent_middle": 46,
+          "percent_wealthy": 28
+        },
+        "weather": {
+          "total_precipitation": 278,
+          "temperature": {
+            "annual_high": 22,
+            "annual_low": -1
+          }
+        },
+        "mayor": 1
+      },
+      {
+        "year": 2017,
+        "population": 398030,
+        "income_distribution": {
+          "percent_poor": 20,
+          "percent_middle": 42,
+          "percent_wealthy": 13
+        },
+        "weather": {
+          "total_precipitation": 364,
+          "temperature": {
+            "annual_high": 25,
+            "annual_low": 6
+          }
+        },
+        "mayor": 6
+      },
+      {
+        "year": 2018,
+        "population": 301780,
+        "income_distribution": {
+          "percent_poor": 16,
+          "percent_middle": 54,
+          "percent_wealthy": 21
+        },
+        "weather": {
+          "total_precipitation": 620,
+          "temperature": {
+            "annual_high": 28,
+            "annual_low": 9
+          }
+        },
+        "mayor": 13
+      },
+      {
+        "year": 2019,
+        "population": 75527,
+        "income_distribution": {
+          "percent_poor": 25,
+          "percent_middle": 49,
+          "percent_wealthy": 21
+        },
+        "weather": {
+          "total_precipitation": 1619,
+          "temperature": {
+            "annual_high": 29,
+            "annual_low": 0
+          }
+        },
+        "mayor": 8
+      },
+      {
+        "year": 2020,
+        "population": 76291,
+        "income_distribution": {
+          "percent_poor": 10,
+          "percent_middle": 60,
+          "percent_wealthy": 14
+        },
+        "weather": {
+          "total_precipitation": 1926,
+          "temperature": {
+            "annual_high": 20,
+            "annual_low": -2
+          }
+        },
+        "mayor": 7
+      },
+      {
+        "year": 2021,
+        "population": 120376,
+        "income_distribution": {
+          "percent_poor": 14,
+          "percent_middle": 44,
+          "percent_wealthy": 19
+        },
+        "weather": {
+          "total_precipitation": 233,
+          "temperature": {
+            "annual_high": 20,
+            "annual_low": 7
+          }
+        },
+        "mayor": 20
+      },
+      {
+        "year": 2022,
+        "population": 459263,
+        "income_distribution": {
+          "percent_poor": 13,
+          "percent_middle": 47,
+          "percent_wealthy": 14
+        },
+        "weather": {
+          "total_precipitation": 1989,
+          "temperature": {
+            "annual_high": 24,
+            "annual_low": 3
+          }
+        },
+        "mayor": 6
+      },
+      {
+        "year": 2023,
+        "population": 166484,
+        "income_distribution": {
+          "percent_poor": 10,
+          "percent_middle": 46,
+          "percent_wealthy": 24
+        },
+        "weather": {
+          "total_precipitation": 1082,
+          "temperature": {
+            "annual_high": 21,
+            "annual_low": 10
+          }
+        },
+        "mayor": 9
+      },
+      {
+        "year": 2024,
+        "population": 250856,
+        "income_distribution": {
+          "percent_poor": 27,
+          "percent_middle": 46,
+          "percent_wealthy": 22
+        },
+        "weather": {
+          "total_precipitation": 791,
+          "temperature": {
+            "annual_high": 38,
+            "annual_low": -3
+          }
+        },
+        "mayor": 13
+      }
+    ]
+  },
+  {
+    "_id": 4,
+    "name": "City4",
+    "years": [
+      {
+        "year": 2000,
+        "population": 377331,
+        "income_distribution": {
+          "percent_poor": 14,
+          "percent_middle": 55,
+          "percent_wealthy": 30
+        },
+        "weather": {
+          "total_precipitation": 1099,
+          "temperature": {
+            "annual_high": 30,
+            "annual_low": -3
+          }
+        },
+        "mayor": 4
+      },
+      {
+        "year": 2001,
+        "population": 104534,
+        "income_distribution": {
+          "percent_poor": 13,
+          "percent_middle": 43,
+          "percent_wealthy": 17
+        },
+        "weather": {
+          "total_precipitation": 414,
+          "temperature": {
+            "annual_high": 28,
+            "annual_low": -7
+          }
+        },
+        "mayor": 1
+      },
+      {
+        "year": 2002,
+        "population": 164837,
+        "income_distribution": {
+          "percent_poor": 22,
+          "percent_middle": 55,
+          "percent_wealthy": 22
+        },
+        "weather": {
+          "total_precipitation": 1479,
+          "temperature": {
+            "annual_high": 26,
+            "annual_low": 7
+          }
+        },
+        "mayor": 7
+      },
+      {
+        "year": 2003,
+        "population": 81172,
+        "income_distribution": {
+          "percent_poor": 24,
+          "percent_middle": 40,
+          "percent_wealthy": 19
+        },
+        "weather": {
+          "total_precipitation": 1922,
+          "temperature": {
+            "annual_high": 25,
+            "annual_low": 3
+          }
+        },
+        "mayor": 12
+      },
+      {
+        "year": 2004,
+        "population": 440097,
+        "income_distribution": {
+          "percent_poor": 16,
+          "percent_middle": 54,
+          "percent_wealthy": 15
+        },
+        "weather": {
+          "total_precipitation": 856,
+          "temperature": {
+            "annual_high": 40,
+            "annual_low": -8
+          }
+        },
+        "mayor": 19
+      },
+      {
+        "year": 2005,
+        "population": 184161,
+        "income_distribution": {
+          "percent_poor": 20,
+          "percent_middle": 44,
+          "percent_wealthy": 26
+        },
+        "weather": {
+          "total_precipitation": 780,
+          "temperature": {
+            "annual_high": 30,
+            "annual_low": 7
+          }
+        },
+        "mayor": 11
+      },
+      {
+        "year": 2006,
+        "population": 416963,
+        "income_distribution": {
+          "percent_poor": 18,
+          "percent_middle": 50,
+          "percent_wealthy": 24
+        },
+        "weather": {
+          "total_precipitation": 1735,
+          "temperature": {
+            "annual_high": 29,
+            "annual_low": -1
+          }
+        },
+        "mayor": 7
+      },
+      {
+        "year": 2007,
+        "population": 484017,
+        "income_distribution": {
+          "percent_poor": 26,
+          "percent_middle": 58,
+          "percent_wealthy": 25
+        },
+        "weather": {
+          "total_precipitation": 700,
+          "temperature": {
+            "annual_high": 37,
+            "annual_low": -4
+          }
+        },
+        "mayor": 10
+      },
+      {
+        "year": 2008,
+        "population": 239227,
+        "income_distribution": {
+          "percent_poor": 12,
+          "percent_middle": 59,
+          "percent_wealthy": 15
+        },
+        "weather": {
+          "total_precipitation": 1820,
+          "temperature": {
+            "annual_high": 31,
+            "annual_low": 1
+          }
+        },
+        "mayor": 20
+      },
+      {
+        "year": 2009,
+        "population": 133323,
+        "income_distribution": {
+          "percent_poor": 28,
+          "percent_middle": 43,
+          "percent_wealthy": 11
+        },
+        "weather": {
+          "total_precipitation": 545,
+          "temperature": {
+            "annual_high": 28,
+            "annual_low": -1
+          }
+        },
+        "mayor": 15
+      },
+      {
+        "year": 2010,
+        "population": 114534,
+        "income_distribution": {
+          "percent_poor": 20,
+          "percent_middle": 45,
+          "percent_wealthy": 14
+        },
+        "weather": {
+          "total_precipitation": 1438,
+          "temperature": {
+            "annual_high": 25,
+            "annual_low": -7
+          }
+        },
+        "mayor": 1
+      },
+      {
+        "year": 2011,
+        "population": 201548,
+        "income_distribution": {
+          "percent_poor": 21,
+          "percent_middle": 56,
+          "percent_wealthy": 22
+        },
+        "weather": {
+          "total_precipitation": 1202,
+          "temperature": {
+            "annual_high": 34,
+            "annual_low": 4
+          }
+        },
+        "mayor": 4
+      },
+      {
+        "year": 2012,
+        "population": 402171,
+        "income_distribution": {
+          "percent_poor": 12,
+          "percent_middle": 58,
+          "percent_wealthy": 21
+        },
+        "weather": {
+          "total_precipitation": 663,
+          "temperature": {
+            "annual_high": 30,
+            "annual_low": -3
+          }
+        },
+        "mayor": 7
+      },
+      {
+        "year": 2013,
+        "population": 167271,
+        "income_distribution": {
+          "percent_poor": 28,
+          "percent_middle": 57,
+          "percent_wealthy": 18
+        },
+        "weather": {
+          "total_precipitation": 555,
+          "temperature": {
+            "annual_high": 30,
+            "annual_low": 4
+          }
+        },
+        "mayor": 14
+      },
+      {
+        "year": 2014,
+        "population": 432561,
+        "income_distribution": {
+          "percent_poor": 23,
+          "percent_middle": 53,
+          "percent_wealthy": 19
+        },
+        "weather": {
+          "total_precipitation": 1502,
+          "temperature": {
+            "annual_high": 38,
+            "annual_low": 9
+          }
+        },
+        "mayor": 5
+      },
+      {
+        "year": 2015,
+        "population": 393786,
+        "income_distribution": {
+          "percent_poor": 26,
+          "percent_middle": 50,
+          "percent_wealthy": 10
+        },
+        "weather": {
+          "total_precipitation": 1576,
+          "temperature": {
+            "annual_high": 28,
+            "annual_low": 4
+          }
+        },
+        "mayor": 19
+      },
+      {
+        "year": 2016,
+        "population": 423485,
+        "income_distribution": {
+          "percent_poor": 26,
+          "percent_middle": 46,
+          "percent_wealthy": 17
+        },
+        "weather": {
+          "total_precipitation": 878,
+          "temperature": {
+            "annual_high": 40,
+            "annual_low": 3
+          }
+        },
+        "mayor": 11
+      },
+      {
+        "year": 2017,
+        "population": 66083,
+        "income_distribution": {
+          "percent_poor": 21,
+          "percent_middle": 50,
+          "percent_wealthy": 26
+        },
+        "weather": {
+          "total_precipitation": 1709,
+          "temperature": {
+            "annual_high": 31,
+            "annual_low": 10
+          }
+        },
+        "mayor": 13
+      },
+      {
+        "year": 2018,
+        "population": 227536,
+        "income_distribution": {
+          "percent_poor": 13,
+          "percent_middle": 48,
+          "percent_wealthy": 15
+        },
+        "weather": {
+          "total_precipitation": 812,
+          "temperature": {
+            "annual_high": 38,
+            "annual_low": 10
+          }
+        },
+        "mayor": 12
+      },
+      {
+        "year": 2019,
+        "population": 271729,
+        "income_distribution": {
+          "percent_poor": 10,
+          "percent_middle": 42,
+          "percent_wealthy": 17
+        },
+        "weather": {
+          "total_precipitation": 872,
+          "temperature": {
+            "annual_high": 21,
+            "annual_low": -2
+          }
+        },
+        "mayor": 6
+      },
+      {
+        "year": 2020,
+        "population": 54082,
+        "income_distribution": {
+          "percent_poor": 20,
+          "percent_middle": 56,
+          "percent_wealthy": 15
+        },
+        "weather": {
+          "total_precipitation": 507,
+          "temperature": {
+            "annual_high": 33,
+            "annual_low": 10
+          }
+        },
+        "mayor": 19
+      },
+      {
+        "year": 2021,
+        "population": 240723,
+        "income_distribution": {
+          "percent_poor": 28,
+          "percent_middle": 41,
+          "percent_wealthy": 22
+        },
+        "weather": {
+          "total_precipitation": 1842,
+          "temperature": {
+            "annual_high": 37,
+            "annual_low": -7
+          }
+        },
+        "mayor": 5
+      },
+      {
+        "year": 2022,
+        "population": 177415,
+        "income_distribution": {
+          "percent_poor": 21,
+          "percent_middle": 50,
+          "percent_wealthy": 30
+        },
+        "weather": {
+          "total_precipitation": 241,
+          "temperature": {
+            "annual_high": 35,
+            "annual_low": -5
+          }
+        },
+        "mayor": 13
+      },
+      {
+        "year": 2023,
+        "population": 358573,
+        "income_distribution": {
+          "percent_poor": 13,
+          "percent_middle": 43,
+          "percent_wealthy": 10
+        },
+        "weather": {
+          "total_precipitation": 872,
+          "temperature": {
+            "annual_high": 23,
+            "annual_low": -9
+          }
+        },
+        "mayor": 9
+      },
+      {
+        "year": 2024,
+        "population": 414240,
+        "income_distribution": {
+          "percent_poor": 10,
+          "percent_middle": 60,
+          "percent_wealthy": 25
+        },
+        "weather": {
+          "total_precipitation": 696,
+          "temperature": {
+            "annual_high": 35,
+            "annual_low": -5
+          }
+        },
+        "mayor": 8
+      }
+    ]
+  }
+]

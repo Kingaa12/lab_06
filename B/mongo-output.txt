@@ -1,0 +1,84 @@
+~~~~~~ Lab 6 section B mongo output ~~~~~~~~~~~
+
+
+db.mayors.find()
+
+
+{ "_id" : ObjectId("65db974903d053d624025118"), "firstname" : "John", "last
+name" : "Doe", "birthdate" : "1970-01-01", "political_party" : "Independent
+", "terms_served" : [ { "start_year" : 1998, "end_year" : 2002, "city" : "C
+ityA" } ] }
+
+
+
+
+
+db.mayors.find({}, { firstname: 1, _id: 0 });
+{ "firstname" : "John" }
+
+
+
+db.cities.find({"years.mayor": 1})
+
+***I had no output for this one***
+
+
+
+
+db.cities.aggregate([
+{
+$project: {
+_id: 0, // Exclude the _id field
+name: 1, // Include the city name
+annualWeatherData: "$years.weather" // Project only the weather data from each year
+}
+}
+])
+
+{ "name" : "CityA", "annualWeatherData" : [ { "total_precipitation" : 500, 
+"temperature" : { "annual_high" : 30, "annual_low" : -5 } } ] }
+
+
+db.mayors.find()
+***This returned nothing this time confirming I deleted the mayor*** 
+
+\mongoimport --db weatherData --collection mayors --f
+ile /home/dan/web2/lab6/SectionB/mayors.json --jsonArray
+2024-02-25T14:59:01.840-0500    connected to: mongodb://localhost/
+2024-02-25T14:59:01.851-0500    20 document(s) imported successfully. 0 doc
+ument(s) failed to import.
+
+
+mongoimport --db weatherData --collection cities --fi
+le /home/dan/web2/lab6/SectionB/cities.json --jsonArray
+2024-02-25T15:00:20.503-0500    connected to: mongodb://localhost/
+2024-02-25T15:00:20.513-0500    4 document(s) imported successfully. 0 docu
+ment(s) failed to import.
+
+> db.mayors.find().limit(5)
+{ "_id" : 1, "firstname" : "Firstname1", "lastname" : "Lastname1", "birthda
+te" : "1964-08-04 00:00:00", "political_party" : "Republican", "terms_serve
+d" : [ { "start_year" : 1991, "end_year" : 2022, "city" : "City4" } ] }
+{ "_id" : 6, "firstname" : "Firstname6", "lastname" : "Lastname6", "birthda
+te" : "1940-01-05 00:00:00", "political_party" : "Republican", "terms_serve
+d" : [ { "start_year" : 1991, "end_year" : 2017, "city" : "City1" } ] }
+{ "_id" : 3, "firstname" : "Firstname3", "lastname" : "Lastname3", "birthda
+te" : "1970-11-27 00:00:00", "political_party" : "Democratic", "terms_serve
+d" : [ { "start_year" : 2009, "end_year" : 2016, "city" : "City1" } ] }
+{ "_id" : 14, "firstname" : "Firstname14", "lastname" : "Lastname14", "birt
+hdate" : "1968-11-12 00:00:00", "political_party" : "Republican", "terms_se
+rved" : [ { "start_year" : 1991, "end_year" : 2017, "city" : "City4" } ] }
+{ "_id" : 13, "firstname" : "Firstname13", "lastname" : "Lastname13", "birt
+hdate" : "1970-12-02 00:00:00", "political_party" : "Independent", "terms_s
+erved" : [ { "start_year" : 2001, "end_year" : 2023, "city" : "City1" } ] }
+
+
+> db.cities.find().limit(1)
+{ "_id" : ObjectId("65db97f203d053d624025119"), "name" : "CityA", "years" :
+ [ { "year" : 1999, "population" : 100000, "income_distribution" : { "perce
+nt_poor" : 20, "percent_middle" : 50, "percent_wealthy" : 30 }, "weather" :
+ { "total_precipitation" : 500, "temperature" : { "annual_high" : 30, "annu
+al_low" : -5 } }, "mayor" : ObjectId("65db974903d053d624025118") } ] }
+
+
+************I limited the output to 1 because it was so long 

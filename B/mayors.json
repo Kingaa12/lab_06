@@ -1,0 +1,282 @@
+[
+  {
+    "_id": 1,
+    "firstname": "Firstname1",
+    "lastname": "Lastname1",
+    "birthdate": "1964-08-04 00:00:00",
+    "political_party": "Republican",
+    "terms_served": [
+      {
+        "start_year": 1991,
+        "end_year": 2022,
+        "city": "City4"
+      }
+    ]
+  },
+  {
+    "_id": 2,
+    "firstname": "Firstname2",
+    "lastname": "Lastname2",
+    "birthdate": "1965-11-27 00:00:00",
+    "political_party": "Democratic",
+    "terms_served": [
+      {
+        "start_year": 2001,
+        "end_year": 2018,
+        "city": "City2"
+      }
+    ]
+  },
+  {
+    "_id": 3,
+    "firstname": "Firstname3",
+    "lastname": "Lastname3",
+    "birthdate": "1970-11-27 00:00:00",
+    "political_party": "Democratic",
+    "terms_served": [
+      {
+        "start_year": 2009,
+        "end_year": 2016,
+        "city": "City1"
+      }
+    ]
+  },
+  {
+    "_id": 4,
+    "firstname": "Firstname4",
+    "lastname": "Lastname4",
+    "birthdate": "1957-12-14 00:00:00",
+    "political_party": "Republican",
+    "terms_served": [
+      {
+        "start_year": 1996,
+        "end_year": 2014,
+        "city": "City1"
+      }
+    ]
+  },
+  {
+    "_id": 5,
+    "firstname": "Firstname5",
+    "lastname": "Lastname5",
+    "birthdate": "1942-04-27 00:00:00",
+    "political_party": "Republican",
+    "terms_served": [
+      {
+        "start_year": 1996,
+        "end_year": 2013,
+        "city": "City3"
+      }
+    ]
+  },
+  {
+    "_id": 6,
+    "firstname": "Firstname6",
+    "lastname": "Lastname6",
+    "birthdate": "1940-01-05 00:00:00",
+    "political_party": "Republican",
+    "terms_served": [
+      {
+        "start_year": 1991,
+        "end_year": 2017,
+        "city": "City1"
+      }
+    ]
+  },
+  {
+    "_id": 7,
+    "firstname": "Firstname7",
+    "lastname": "Lastname7",
+    "birthdate": "1968-10-20 00:00:00",
+    "political_party": "Independent",
+    "terms_served": [
+      {
+        "start_year": 2007,
+        "end_year": 2011,
+        "city": "City1"
+      }
+    ]
+  },
+  {
+    "_id": 8,
+    "firstname": "Firstname8",
+    "lastname": "Lastname8",
+    "birthdate": "1956-12-17 00:00:00",
+    "political_party": "Republican",
+    "terms_served": [
+      {
+        "start_year": 1998,
+        "end_year": 2016,
+        "city": "City2"
+      }
+    ]
+  },
+  {
+    "_id": 9,
+    "firstname": "Firstname9",
+    "lastname": "Lastname9",
+    "birthdate": "1961-07-27 00:00:00",
+    "political_party": "Democratic",
+    "terms_served": [
+      {
+        "start_year": 1993,
+        "end_year": 2017,
+        "city": "City2"
+      }
+    ]
+  },
+  {
+    "_id": 10,
+    "firstname": "Firstname10",
+    "lastname": "Lastname10",
+    "birthdate": "1957-05-07 00:00:00",
+    "political_party": "Democratic",
+    "terms_served": [
+      {
+        "start_year": 2001,
+        "end_year": 2019,
+        "city": "City4"
+      }
+    ]
+  },
+  {
+    "_id": 11,
+    "firstname": "Firstname11",
+    "lastname": "Lastname11",
+    "birthdate": "1942-12-05 00:00:00",
+    "political_party": "Independent",
+    "terms_served": [
+      {
+        "start_year": 1996,
+        "end_year": 2021,
+        "city": "City4"
+      }
+    ]
+  },
+  {
+    "_id": 12,
+    "firstname": "Firstname12",
+    "lastname": "Lastname12",
+    "birthdate": "1948-12-08 00:00:00",
+    "political_party": "Democratic",
+    "terms_served": [
+      {
+        "start_year": 1996,
+        "end_year": 2016,
+        "city": "City1"
+      }
+    ]
+  },
+  {
+    "_id": 13,
+    "firstname": "Firstname13",
+    "lastname": "Lastname13",
+    "birthdate": "1970-12-02 00:00:00",
+    "political_party": "Independent",
+    "terms_served": [
+      {
+        "start_year": 2001,
+        "end_year": 2023,
+        "city": "City1"
+      }
+    ]
+  },
+  {
+    "_id": 14,
+    "firstname": "Firstname14",
+    "lastname": "Lastname14",
+    "birthdate": "1968-11-12 00:00:00",
+    "political_party": "Republican",
+    "terms_served": [
+      {
+        "start_year": 1991,
+        "end_year": 2017,
+        "city": "City4"
+      }
+    ]
+  },
+  {
+    "_id": 15,
+    "firstname": "Firstname15",
+    "lastname": "Lastname15",
+    "birthdate": "1944-03-15 00:00:00",
+    "political_party": "Republican",
+    "terms_served": [
+      {
+        "start_year": 1991,
+        "end_year": 2017,
+        "city": "City4"
+      }
+    ]
+  },
+  {
+    "_id": 16,
+    "firstname": "Firstname16",
+    "lastname": "Lastname16",
+    "birthdate": "1959-04-16 00:00:00",
+    "political_party": "Republican",
+    "terms_served": [
+      {
+        "start_year": 1998,
+        "end_year": 2014,
+        "city": "City1"
+      }
+    ]
+  },
+  {
+    "_id": 17,
+    "firstname": "Firstname17",
+    "lastname": "Lastname17",
+    "birthdate": "1959-04-12 00:00:00",
+    "political_party": "Republican",
+    "terms_served": [
+      {
+        "start_year": 1996,
+        "end_year": 2011,
+        "city": "City3"
+      }
+    ]
+  },
+  {
+    "_id": 18,
+    "firstname": "Firstname18",
+    "lastname": "Lastname18",
+    "birthdate": "1965-11-01 00:00:00",
+    "political_party": "Republican",
+    "terms_served": [
+      {
+        "start_year": 1999,
+        "end_year": 2021,
+        "city": "City3"
+      }
+    ]
+  },
+  {
+    "_id": 19,
+    "firstname": "Firstname19",
+    "lastname": "Lastname19",
+    "birthdate": "1965-05-06 00:00:00",
+    "political_party": "Republican",
+    "terms_served": [
+      {
+        "start_year": 1995,
+        "end_year": 2024,
+        "city": "City2"
+      }
+    ]
+  },
+  {
+    "_id": 20,
+    "firstname": "Firstname20",
+    "lastname": "Lastname20",
+    "birthdate": "1966-04-07 00:00:00",
+    "political_party": "Democratic",
+    "terms_served": [
+      {
+        "start_year": 2007,
+        "end_year": 2013,
+        "city": "City1"
+      }
+    ]
+  }
+]
