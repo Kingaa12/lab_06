@@ -1,0 +1,91 @@
+SELECT * FROM Patients;
+ patientid | firstname | lastname | birthdate  | smoker | gender
+-----------+-----------+----------+------------+--------+--------
+       100 | John      | Doe      | 1980-01-01 | f      | M
+       200 | Jane      | Doe      | 1982-02-02 | t      | F
+
+
+SELECT * FROM MedicalLogs WHERE patientID = 1;
+ patientid | date | title | description
+-----------+------+-------+-------------
+(0 rows)
+
+patient_db=# SELECT * FROM MedicalLogs WHERE patientID = 100;
+ patientid |    date    |     title      |                    description
+-----------+------------+----------------+----------------------------------------------------
+       100 | 2023-01-01 | Annual Checkup | Complete physical examination. All results normal.
+       100 | 2023-02-15 | Follow-up      | Discussion of exercise benefits. No issues.
+
+
+SELECT * FROM Patients JOIN MedicalLogs ON Patients.patientID = MedicalLogs.patientID
+ patientid | firstname | lastname | birthdate  | smoker | gender | patientid |    date    |      title      |                    description
+-----------+-----------+----------+------------+--------+--------+-----------+------------+-----------------+----------------------------------------------------
+       100 | John      | Doe      | 1980-01-01 | f      | M      |       100 | 2023-01-01 | Annual Checkup  | Complete physical examination. All results normal.
+       100 | John      | Doe      | 1980-01-01 | f      | M      |       100 | 2023-02-15 | Follow-up       | Discussion of exercise benefits. No issues.
+       200 | Jane      | Doe      | 1982-02-02 | t      | F      |       200 | 2023-03-03 | Routine Checkup | Routine health checkup. Advised to reduce smoking.
+
+ patientid |    date    |     title      |                           description
+
+-----------+------------+----------------+-----------------------------------------------------------------
+       100 | 2023-01-01 | Annual Checkup | Annual checkup results normal. Recommended dietary adjustments.
+
+
+
+
+SELECT * FROM patients;
+ patientid |  firstname  | lastname | birthdate  | smoker | gender 
+-----------+-------------+----------+------------+--------+--------
+       100 | John        | Doe      | 1980-01-01 | f      | M
+       200 | Jane        | Doe      | 1982-02-02 | t      | F
+         1 | Isabella    | Tucker   | 1959-12-28 | t      | O
+         2 | Lindsey     | Reynolds | 1952-03-30 | f      | M
+         3 | Nancy       | Higgins  | 1974-09-04 | f      | F
+         4 | Justin      | Wilson   | 1971-12-21 | t      | M
+         5 | Christopher | Adams    | 1970-01-10 | t      | O
+         6 | Drew        | Bauer    | 1962-07-09 | f      | F
+         7 | Sherri      | Hall     | 1959-03-13 | f      | O
+         8 | Jody        | Cook     | 1998-12-05 | f      | O
+         9 | Douglas     | Nielsen  | 1957-10-19 | t      | F
+        10 | Heather     | Jones    | 1987-11-08 | t      | O
+        11 | Christopher | Kaufman  | 1952-11-07 | f      | M
+        12 | Bruce       | Lopez    | 1952-09-03 | t      | O
+        13 | Ryan        | Green    | 1958-05-29 | t      | M
+        14 | David       | Kelley   | 1969-08-13 | f      | M
+        15 | Brandi      | Howe     | 1970-11-15 | t      | O
+        16 | Gregory     | May      | 1995-05-04 | f      | M
+        17 | Megan       | Schmidt  | 1952-05-19 | f      | F
+        18 | Lucas       | Cooper   | 1967-11-03 | f      | M
+        19 | Kim         | Miranda  | 1998-11-21 | t      | M
+        20 | Christopher | Pearson  | 1987-08-21 | f      | M
+(22 rows)
+
+
+
+
+SELECT * FROM medicallogs LIMIT 10;
+
+ patientid |    date    |        title        |                           des
+cription                           
+-----------+------------+---------------------+------------------------------
+-----------------------------------
+       200 | 2023-03-03 | Routine Checkup     | Routine health checkup. Advis
+ed to reduce smoking.
+       100 | 2023-01-01 | Annual Checkup      | Annual checkup results normal
+. Recommended dietary adjustments.
+         1 | 2023-05-05 | Colonoscopy         | Description for patient 1, lo
+g 0
+         1 | 2022-05-04 | Check-up            | Description for patient 1, lo
+g 1
+         1 | 2023-08-31 | Backyotomy          | Description for patient 1, lo
+g 2
+         1 | 2023-02-15 | Left femur fracture | Description for patient 1, lo
+g 3
+         1 | 2022-03-29 | Endoscopy           | Description for patient 1, lo
+g 4
+         1 | 2022-02-25 | Appendectomy        | Description for patient 1, lo
+g 5
+         1 | 2022-04-21 | Strep throat        | Description for patient 1, lo
+g 6
+         1 | 2022-05-31 | COVID vaccination   | Description for patient 1, lo
+g 7
+(10 rows)
